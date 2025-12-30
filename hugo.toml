@@ -68,3 +68,9 @@ key = 3
 name = "email"
 url = "mailto:abdallatheco0oder@gmail.com"
 aria = "My e-Mail Address"
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 10
