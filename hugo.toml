@@ -2,7 +2,7 @@ baseURL = 'https://pwnxr.github.io/'
 buildDrafts = true
 buildFuture = true
 languageCode = 'en-us'
-theme = "nightfall"
+	theme = "nightfall"
 
 [markup]
   [markup.goldmark]
@@ -13,14 +13,16 @@ theme = "nightfall"
 pagerSize = 3
 
 [menu]
-  [[menu.header]]
-    name = "blog"
-    weight = 0
-    url = "blog"
-  [[menu.header]]
-    name = "about"
-    weight = 1
-    url = "about"
+
+[[menu.header]]
+  name = "About"
+  url = "/about/"
+  weight = 1
+
+[[menu.header]]
+  name = "Blog"
+  url = "/posts/"
+  weight = 2
 
 [params]
 user = "pwnxr"
