@@ -24,6 +24,11 @@ pagerSize = 3
   url = "/posts/"
   weight = 2
 
+[[menu.header]]
+  name = "Writeups"
+  url = "/writeups/"
+  weight = 3
+
 [params]
 user = "pwnxr"
 hostname = "github.io"
